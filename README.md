@@ -1,6 +1,7 @@
 
 ```
 MFShareViewConfiguration *configuration = [MFShareViewConfiguration shareViewConfiguration];
+//默认单行
 configuration.shareType = MFShareViewTypeSingleRow;
  [MFShareView showShareViewWithContent:param shareViewConfiguration:configuration result:^(SSDKPlatformType type, BOOL isSuccess) {
 

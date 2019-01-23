@@ -1,12 +1,13 @@
 
->自定义分享页面
-==========
-
+```
 MFShareViewConfiguration *configuration = [MFShareViewConfiguration shareViewConfiguration];
 configuration.shareType = MFShareViewTypeSingleRow;
  [MFShareView showShareViewWithContent:param shareViewConfiguration:configuration result:^(SSDKPlatformType type, BOOL isSuccess) {
 
 }];
+```
+>自定义分享页面
+==========
 
 ![image](https://github.com/Josin22/JSShareView/blob/master/Gif/gig.gif)   
 

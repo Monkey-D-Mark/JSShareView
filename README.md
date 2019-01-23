@@ -2,6 +2,12 @@
 >自定义分享页面
 ==========
 
+MFShareViewConfiguration *configuration = [MFShareViewConfiguration shareViewConfiguration];
+configuration.shareType = MFShareViewTypeSingleRow;
+ [MFShareView showShareViewWithContent:param shareViewConfiguration:configuration result:^(SSDKPlatformType type, BOOL isSuccess) {
+
+}];
+
 ![image](https://github.com/Josin22/JSShareView/blob/master/Gif/gig.gif)   
 
 >>需要自己注册一个shareSDK的APP,填写key,以及各平台的key,在URL Types里填写scheme
